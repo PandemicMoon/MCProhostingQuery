@@ -14,11 +14,11 @@ public class StartForm {
 		JTextField field3 = new JTextField("0");
 		JPanel panel = new JPanel(new GridLayout(0, 1));
 		panel.add(combo);
-		panel.add(new JLabel("Server ID(view&id=******):"));
+		panel.add(new JLabel("Server ID (view&id=******):"));
 		panel.add(field1);
 		panel.add(new JLabel("Max Number of Players:"));
 		panel.add(field2);
-		panel.add(new JLabel("Multicraft Root Link(E.g. https://multicraft.mcprohosting.com/):"));
+		panel.add(new JLabel("Multicraft Root Link (E.g. https://multicraft.mcprohosting.com/):"));
 		panel.add(field3);
 		int result = JOptionPane.showConfirmDialog(null, panel, "Test",
 												   JOptionPane.OK_CANCEL_OPTION,
