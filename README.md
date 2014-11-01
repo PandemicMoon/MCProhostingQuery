@@ -1,4 +1,4 @@
-MCProhostingQuery
+Multicraft Query
 =================
 To launch/use, simply double click the jar.
 When prompted for Server ID simply go the control panel from your host for your specific server
@@ -9,4 +9,4 @@ Contributors
 ============
 chromestone - Main Project
 
-ThePandemicMoon - Made compatible with other hosts
+ThePandemicMoon - Improved Code, Renamed to Multicraft Query
