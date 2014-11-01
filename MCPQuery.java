@@ -16,7 +16,7 @@ public class MCPQuery {
 				display.show();
 				tOne = tOne.substring(0,2);
 			while (true) {
-				URL url = new URL((String)quad.getFour() + "index.php?r=server/view&id=" + (String)triplet.getTwo());
+				URL url = new URL((String)quad.getFour() + "index.php?r=server/view&id=" + (String)quad.getTwo());
 				URLConnection con = url.openConnection();
 				String redirect = con.getHeaderField("Location");
 				if (redirect != null){
